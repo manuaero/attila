@@ -1,0 +1,83 @@
+Arguments: 
+  /Users/manusharma/.nvm/versions/node/v6.11.1/bin/node /Users/manusharma/.nvm/versions/node/v6.11.1/bin/yarn start
+
+PATH: 
+  /Users/manusharma/.nvm/versions/node/v6.11.1/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  6.11.1
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "attila",
+    "description": "Ghost Theme",
+    "demo": "http://attila.zutrinken.com",
+    "version": "1.5.0",
+    "engines": {
+      "ghost": ">=1.2.0"
+    },
+    "license": "MIT",
+    "screenshots": {
+      "desktop": "src/screenshot-desktop.jpg",
+      "mobile": "src/screenshot-mobile.jpg"
+    },
+    "author": {
+      "name": "Peter Amende",
+      "email": "xoxo@zutrinken.com",
+      "url": "http://zutrinken.com"
+    },
+    "gpm": {
+      "type": "theme",
+      "categories": [
+        "Minimal",
+        "Personal Blogs"
+      ]
+    },
+    "keywords": [
+      "ghost",
+      "theme"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/zutrinken/attila.git"
+    },
+    "devDependencies": {
+      "autoprefixer-core": "^6.0.1",
+      "grunt": "^1.0.1",
+      "grunt-contrib-clean": "^1.1.0",
+      "grunt-contrib-copy": "^1.0.0",
+      "grunt-contrib-uglify": "^3.3.0",
+      "grunt-contrib-watch": "^1.0.0",
+      "grunt-postcss": "^0.9.0",
+      "grunt-sass": "^2.1.0",
+      "load-grunt-tasks": "^3.5.2"
+    },
+    "config": {
+      "posts_per_page": 10
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Command "start" not found.
+      at MessageError.Error (native)
+      at new MessageError (/Users/manusharma/.nvm/versions/node/v6.11.1/lib/node_modules/yarn/lib/cli.js:186:110)
+      at /Users/manusharma/.nvm/versions/node/v6.11.1/lib/node_modules/yarn/lib/cli.js:87307:17
+      at next (native)
+      at step (/Users/manusharma/.nvm/versions/node/v6.11.1/lib/node_modules/yarn/lib/cli.js:98:30)
+      at /Users/manusharma/.nvm/versions/node/v6.11.1/lib/node_modules/yarn/lib/cli.js:116:14
+      at Promise.F (/Users/manusharma/.nvm/versions/node/v6.11.1/lib/node_modules/yarn/lib/cli.js:23451:28)
+      at /Users/manusharma/.nvm/versions/node/v6.11.1/lib/node_modules/yarn/lib/cli.js:95:12
+      at runCommand (/Users/manusharma/.nvm/versions/node/v6.11.1/lib/node_modules/yarn/lib/cli.js:87312:22)
+      at Object.<anonymous> (/Users/manusharma/.nvm/versions/node/v6.11.1/lib/node_modules/yarn/lib/cli.js:87412:14)
